@@ -1,0 +1,47 @@
+/*
+// https://stackoverflow.com/questions/22672368/how-to-make-a-transparent-html-button
+*/
+img {
+    height: calc(30px + 2vh);
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale */
+img:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.timeCircleUp{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E2FFE9;
+    border-radius: 900px;
+    box-shadow: 0px 0px 20px #8CEDA6;
+    width: calc(20px + 1vh);
+    height: calc(20px + 1vh);
+    text-align: center;
+    margin-bottom: calc(5px + .2vh);
+    margin-top: -8px;
+    margin-left: 10px;
+}
+.timeCircleDown{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFE2FF;
+    border-radius: 900px;
+    box-shadow: 0px 0px 20px #E28CED;
+    width: calc(20px + 1vh);
+    height: calc(20px + 1vh);
+    text-align: center;
+    margin-left: 10px;
+}
+
+.timeCircleUp:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.timeCircleDown:hover {
+    cursor: pointer;
+    scale: 1.1;
+}

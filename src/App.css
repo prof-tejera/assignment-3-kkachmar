@@ -1,0 +1,283 @@
+@import url("https://use.typekit.net/iee5czn.css");
+
+* {
+    font-family: mono45-headline, monospace;
+    color: #D5EFFF;
+    text-shadow: 0 0 10px #8CC9ED;
+}
+
+.timerCircle {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #D5EFFF;
+    border-radius: 900px;
+    box-shadow: 0px 0px 20px #8CC9ED;
+    padding: 2.5vw;
+    width: 15vw;
+    height: 15vw;
+    min-width: 250px;
+    min-height: 250px;
+}
+
+.timerSquare {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #D5EFFF;
+    box-shadow: 0px 0px 20px #8CC9ED;
+    padding: 2.5vw;
+    width: 20vw;
+    height: 20vw;
+    min-width: 250px;
+    min-height: 250px;
+}
+
+.outline {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #D5EFFF;
+    box-shadow: 0px 0px 20px #8CC9ED;
+    padding: 2.5vw;
+}
+
+.bottom-border {
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 4px;
+    border-color: #D5EFFF;
+    margin-bottom: 2vh;
+    margin-top: 4vh
+
+
+}
+
+.no-border {
+    border-style: none;
+    padding: 2.5vw;
+    padding-left: calc(2.5vw + 15px);
+
+}
+
+.timerRectangle {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #D5EFFF;
+    box-shadow: 0px 0px 20px #8CC9ED;
+    padding: 2.5vw;
+    width: 68vw;
+    height: 18vw;
+    min-width: 250px;
+    max-width: 600px;
+    min-height: 250px;
+}
+
+/* min-font size: https://stackoverflow.com/questions/23560087/is-there-such-a-thing-as-min-font-size-and-max-font-size */
+.timerText {
+    text-align: center;
+    font-size: calc(20px + 2vw);
+}
+
+.goalText {
+    text-align: center;
+    margin-top: calc(25px + 2vh);
+    margin-bottom: 5px;
+    font-size: calc(12px + .8vw);
+    color: #FFE2FF;
+    text-shadow: 0 0 10px #E28CED;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+}
+
+.lapText {
+    color: #E2FFE9;
+    text-shadow: 0 0 10px #8CEDA6;
+    justify-content: center;
+    font-size: calc(10px + .8vw);
+}
+
+.setsText {
+    color: #FFE2FF;
+    text-shadow: 0 0 10px #E28CED;
+    justify-content: center;
+}
+
+.greenBorderText {
+    font-size: calc(70px + 1.5vw);
+    -webkit-text-stroke: 2.5px #E2FFE9;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: transparent;
+    text-shadow: 0 0 30px #8CEDA6;
+    text-align: center;
+}
+
+.greenButton{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E2FFE9;
+    background-color: transparent;
+    border-radius: 900px;
+    box-shadow: 0px 0px 20px #8CEDA6;
+    width: calc(12px + 1vh);
+    height: calc(12px + 1vh);
+    text-align: center;
+    padding: 0px;
+    margin-bottom: calc(5px + .2vh);
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 2px;
+}
+
+.greenButton:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.pinkButton{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFE2FF;
+    background-color: transparent;
+    border-radius: 900px;
+    box-shadow: 0px 0px 20px #E28CED;
+    width: calc(12px + 1vh);
+    height: calc(12px + 1vh);
+    text-align: center;
+    padding: 0px;
+    margin-bottom: calc(5px + .2vh);
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 2px;
+
+}
+
+.pinkButton:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke */
+.displayText {
+    font-size: calc(70px + 1.5vw);
+    -webkit-text-stroke: 2.5px #FFE2FF;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: transparent;
+    text-shadow: 0 0 30px #E28CED;
+    text-align: center;
+    background-color: transparent;
+    border-color: #FFE2FF;
+    max-width: 30vw;
+}
+
+.left-align{
+    text-align: left !important;
+}
+
+.displayText-small {
+    font-size: calc(40px + 1.5vw);
+    -webkit-text-stroke: 2.5px #E2FFE9;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: transparent;
+    text-shadow: 0 0 30px #8CEDA6;
+    text-align: center;
+    align-items:baseline
+}
+
+.title {
+    justify-content: left;
+    font-size: calc(40px + 1vw);
+    margin-bottom: 3px
+}
+
+.subtitle {
+    justify-content: left;
+    font-size: calc(16px + 1vw);
+    margin-bottom: 3px
+}
+
+.description {
+    justify-content: left;
+    font-size: calc(10px + 1vw);
+    margin-bottom: 3px
+}
+
+.pinkText {
+    color: #FFE2FF;
+    text-shadow: 0 0 10px #E28CED;
+}
+
+.greenText {
+    color: #E2FFE9;
+    text-shadow: 0 0 10px #8CEDA6;
+}
+
+.greenHover:hover {
+    cursor: pointer;
+    scale: 1.1;
+    color: #E2FFE9;
+    text-shadow: 0 0 10px #8CEDA6;
+    transform-origin: bottom left;
+}
+
+.hide {
+    display: none;
+}
+
+.stopwatchControls {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.center-align {
+    text-align: center;
+    justify-content: center;
+    margin-left: -3vw !important;
+
+}
+
+.full-width-scroll {
+    width: 70vw;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    max-height: 48vh;
+    display: inline-flex;
+    padding: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.no-top-margin {
+    margin-top: 0px !important;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0px !important;
+}
+
+.small-bottom-margin {
+    margin-bottom: 5 px !important;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.small-margin {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.timer-information {
+    display: flex;
+    justify-content: space-between;
+}
