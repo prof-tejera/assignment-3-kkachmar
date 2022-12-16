@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/assignment-3-kkachmar/static/css/main.2c3f7f90.css",
+    "main.js": "/assignment-3-kkachmar/static/js/main.b54ae1a1.js",
+    "static/media/fast-forward.png": "/assignment-3-kkachmar/static/media/fast-forward.0e90ec931cdf72c68c0a.png",
+    "static/media/clock.png": "/assignment-3-kkachmar/static/media/clock.0c9d9ad3a54b726e94ba.png",
+    "static/media/close.png": "/assignment-3-kkachmar/static/media/close.3b52f0c518cc1eae061d.png",
+    "static/media/stop.png": "/assignment-3-kkachmar/static/media/stop.936336ff68dd9ac11bdc.png",
+    "static/media/restart.png": "/assignment-3-kkachmar/static/media/restart.37ff20cd874e4f9e2590.png",
+    "static/media/play.png": "/assignment-3-kkachmar/static/media/play.aa01f1661175e19b11c0.png",
+    "index.html": "/assignment-3-kkachmar/index.html",
+    "main.2c3f7f90.css.map": "/assignment-3-kkachmar/static/css/main.2c3f7f90.css.map",
+    "main.b54ae1a1.js.map": "/assignment-3-kkachmar/static/js/main.b54ae1a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c3f7f90.css",
+    "static/js/main.b54ae1a1.js"
+  ]
+}
