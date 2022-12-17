@@ -1,0 +1,64 @@
+.container {
+    max-width: 1000px;
+    width: 80vw;
+    padding: 3vw;
+}
+
+h1 {
+    font-size: calc(35px + 2vh);
+}
+
+.timerScroll {
+    width: 92vw;
+    overflow-x: scroll;
+    display: inline-flex;
+    padding: 40px;
+}
+
+.fixed-width {
+    width: 330px;
+    min-width: 330px;
+    height: 330px;
+}
+
+.spaced {
+    margin-right: 40px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.overlay {
+    background-color: #002034;
+    z-index:  10;
+    position: absolute;
+    top: 20vh;
+    left: 28vw;
+    width: 40vw;
+    height: 20vh;
+    min-width: 600px;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.titleLine {
+    justify-content: space-between;
+    display: flex;
+    align-items: top;
+}
+
+.pageHeader {
+    display: flex;
+    align-items: baseline;
+    margin-top: -4vh
+}
+
+.editButton {
+    float: right;
+    margin: 0px;
+}
+
+.hide {
+    display: none;
+}
